@@ -3,10 +3,10 @@ CC = gcc
 CFLAGS = -Wall -O2
 
 # Fontes e executáveis
-CLIENTE_SRC = cliente_http.c
-SERVIDOR_SRC = servidor_http.c
-CLIENTE_OUT = cliente_http
-SERVIDOR_OUT = servidor_http
+CLIENTE_SRC = TP_Redes_Cliente.c
+SERVIDOR_SRC = TP_Redes_Cliente.c
+CLIENTE_OUT = TP_Redes_Cliente
+SERVIDOR_OUT = TP_Redes_Servidor
 
 # Diretório padrão do servidor
 SITE_DIR = site
