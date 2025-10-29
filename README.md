@@ -4,7 +4,7 @@ Compilar tudo:
 make
 
 Executar o servidor:
-make run-server
+make run-server ARGS="seu_IP"
 
 Iniciar o servidor HTTP no diretório site/:
 
