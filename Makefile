@@ -23,7 +23,7 @@ run-server: $(SERVIDOR_OUT)
 	@echo "Diretório: $(SITE_DIR)"
 	@echo "Acesse via: http://<seu_IP>:8080/"
 	@echo
-	./$(SERVIDOR_OUT) $(SITE_DIR)
+	./$(SERVIDOR_OUT) $(SITE_DIR) $(ARGS)
 
 run-client: $(CLIENTE_OUT)
 	@echo "🌐 Executando cliente HTTP para: $(TEST_URL)"
