@@ -4,7 +4,7 @@ CFLAGS = -Wall -O2
 
 # Fontes e executáveis
 CLIENTE_SRC = TP_Redes_Cliente.c
-SERVIDOR_SRC = TP_Redes_Serveidor.c
+SERVIDOR_SRC = TP_Redes_Servidor.c
 CLIENTE_OUT = cliente_http
 SERVIDOR_OUT = servidor_http
 
