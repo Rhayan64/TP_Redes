@@ -23,7 +23,7 @@ $(CLIENTE_OUT): $(CLIENTE_SRC)
 
 # Compila o servidor HTTP
 $(SERVIDOR_OUT): $(SERVIDOR_SRC)
-	$(CC) $(CFLAGS) $(SERVIDOR_SRC) -o $(SERVIDOR_OUT)
+	$(CC) $(CFLAGS) $(SERVIDOR_SRC) -o $(SERVIDOR_OUT) $(ARGS)
 
 # Executa o servidor HTTP
 run-server: $(SERVIDOR_OUT)
